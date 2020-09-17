@@ -24,7 +24,7 @@ public class Main {
 
   }
 
-  // Disadventage:
+  // Disadvantage:
   // not suited for callback frameworks
   // aka "SELF problem"
 
