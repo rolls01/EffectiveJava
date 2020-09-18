@@ -30,7 +30,7 @@ public class AbstractMapEntry<K, V> implements Map.Entry<K, V> {
 		if (obj == this) {
 			return true;
 		}
-		if (!(o instanceof Map.Entry)) {
+		if (!(obj instanceof Map.Entry)) {
 			return false;
 		}
 		Map.Entry<?, ?> e = (Map.Entry) obj;
